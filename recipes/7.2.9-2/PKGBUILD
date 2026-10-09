@@ -178,11 +178,11 @@ _is_ci_build() {
 }
 
 if _is_lto_kernel && [ "$_use_lto_suffix" = "yes"  ]; then
-    _pkgsuffix=KBkernel-cachy-t480-lto
+    _pkgsuffix=kbkernel-cachy-t480-lto
 elif ! _is_lto_kernel && [ "$_use_gcc_suffix" = "yes" ]; then
-    _pkgsuffix=KBkernel-cachy-t480-gcc
+    _pkgsuffix=kbkernel-cachy-t480-gcc
 else
-    _pkgsuffix=KBkernel-cachy-t480
+    _pkgsuffix=kbkernel-cachy-t480
 fi
 
 pkgbase="linux-$_pkgsuffix"
@@ -308,7 +308,7 @@ prepare() {
 
     echo "Setting version..."
     echo "-$pkgrel" > localversion.10-pkgrel
-    echo "${pkgbase#linux}" > localversion.20-pkgname
+    echo "-KBkernel-cachy-t480" > localversion.20-pkgname
 
     local src
     for patch in "${source[@]}"; do

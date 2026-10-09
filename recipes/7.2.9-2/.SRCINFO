@@ -1,4 +1,4 @@
-pkgbase = linux-KBkernel-cachy-t480
+pkgbase = linux-kbkernel-cachy-t480
 	pkgdesc = KBkernel-cachy Linux（CachyOS EEVDF/LTO 基座 + BORE + ThinLTO + x86-64-v3，关闭 Intel 无线 LAR）
 	pkgver = 7.2.9
 	pkgrel = 2
@@ -43,7 +43,7 @@ pkgbase = linux-KBkernel-cachy-t480
 	b2sums = c992567bd7dd8553432be496ffa1c17e2f5ebe9c7edb51945cf977e1b742dd6517c210d8843bb82744ca705efd07f8027cd7dde41b50215ebd707a34aa81462e
 	b2sums = 03b6d236610ae00db9395819aa7578860f45ce10839fbdcee80fb8e9e9c8810896d20680c63e43c416ae23b371efd737bc0a14831e1f7d8111578c1f65bda68f
 
-pkgname = linux-KBkernel-cachy-t480
+pkgname = linux-kbkernel-cachy-t480
 	pkgdesc = The KBkernel-cachy Linux（CachyOS EEVDF/LTO 基座 + BORE + ThinLTO + x86-64-v3，关闭 Intel 无线 LAR） kernel and modules
 	depends = coreutils
 	depends = kmod
@@ -62,7 +62,7 @@ pkgname = linux-KBkernel-cachy-t480
 	provides = linux-KBkernel-cachy-lto=7.2.9-2
 	replaces = linux-KBkernel-cachy-lto
 
-pkgname = linux-KBkernel-cachy-t480-headers
+pkgname = linux-kbkernel-cachy-t480-headers
 	pkgdesc = Headers and scripts for building modules for the KBkernel-cachy Linux（CachyOS EEVDF/LTO 基座 + BORE + ThinLTO + x86-64-v3，关闭 Intel 无线 LAR） kernel
 	depends = binutils
 	depends = glibc
@@ -73,7 +73,7 @@ pkgname = linux-KBkernel-cachy-t480-headers
 	depends = xxhash
 	depends = zlib
 	depends = zstd
-	depends = linux-KBkernel-cachy-t480
+	depends = linux-kbkernel-cachy-t480
 	depends = clang
 	depends = llvm
 	depends = lld

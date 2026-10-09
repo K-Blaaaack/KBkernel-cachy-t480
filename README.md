@@ -39,7 +39,7 @@ cd recipes/<版本>
 makepkg -s --noconfirm
 ```
 
-产物：`linux-KBkernel-cachy-t480-<版本>-<pkgrel>-x86_64.pkg.tar.zst`（及 `-headers`）。
+产物：`linux-kbkernel-cachy-t480-<版本>-<pkgrel>-x86_64.pkg.tar.zst`（及 `-headers`）。
 
 > 本仓库仅提供配方；内核源码来自上述公开上游，配方中的 `source` / `b2sums` 锁定了确切来源与校验值。
 
