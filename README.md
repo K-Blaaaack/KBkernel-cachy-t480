@@ -20,7 +20,7 @@
 - CachyOS 调度器 **BORE**（`SCHED_BORE`）
 - **ThinLTO**（`clang` + `ld.lld`）
 - 目标微架构 **x86-64-v3**（`generic_v3`）
-- 关闭 **Intel 无线 LAR**：`iwlwifi lar_disable=1`
+- 关闭 **Intel 无线 LAR**：补丁补回 iwlwifi `lar_disable` 参数 + 包内 `/usr/lib/modprobe.d/iwlwifi-lar.conf`
 - 构建者标识 `kb@R730` 与真实编译时间戳
 
 ## 目录
