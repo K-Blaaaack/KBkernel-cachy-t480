@@ -1,6 +1,6 @@
 # KBkernel-cachy-t480
 
-**ThinkPad T480 定制内核**（CachyOS `linux-cachyos` 基座 + 按用途裁剪 + 本地定制）的**配方与发布**仓库。
+**ThinkPad T480 定制内核**（CachyOS `linux-cachyos` 基座 + 本地定制）的**配方与发布**仓库。
 
 - **产物**（`*.pkg.tar.zst`）与**对应源码**随每次构建发布到 [Releases](../../releases)
 - **构建配方**按版本收录于 `recipes/`
@@ -21,8 +21,6 @@
 - **ThinLTO**（`clang` + `ld.lld`）
 - 目标微架构 **x86-64-v3**（`generic_v3`）
 - 关闭 **Intel 无线 LAR**：`iwlwifi lar_disable=1`
-- **按 T480 用途裁剪**的 config：在 CachyOS 基线上裁剪，并补回常用文件系统/设备——
-  exfat、ntfs3、squashfs、xfs、UTF-8 NLS、SD 读卡器（MMC/SDHCI/Realtek PCI）
 - 构建者标识 `kb@R730` 与真实编译时间戳
 
 ## 目录

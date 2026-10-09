@@ -16,7 +16,7 @@ https://github.com/CachyOS/linux/releases/download/cachyos-<ver>/cachyos-<ver>.t
 
 ## 内核配置种子
 
-`recipes/<版本>/config`（T480 裁剪版，含 exfat/ntfs3/squashfs/xfs/MMC 等）：
+`recipes/<版本>/config`：
 
 ```
 7f4f37039be593d72170f6f0ca7fd29b2ea3cfef3237aa8e374a0738de01b11b57fdfa289eb184044cd677a94d1a43fdb99e3ce25a89b200ac3f807524de5b02
